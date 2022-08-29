@@ -6,6 +6,7 @@ npm install
 ```
 
 ## Serve JSON data
+This needs to be run so that the local db.json file is hosted at localhost:3000 otherwise the fetch fails
 ```
 json-server --watch data/db.json
 ```
