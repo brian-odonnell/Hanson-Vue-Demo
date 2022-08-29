@@ -1,0 +1,16 @@
+{
+    "posts": [
+      {
+        "id": 1,
+        "title": "welcome to the new blog",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et sem in quam vehicula cursus. Fusce eget purus congue, lacinia magna nec, volutpat eros. Pellentesque placerat erat efficitur ligula sagittis posuere. Curabitur et sodales arcu. Aliquam id justo et quam maximus ultricies ac eu lacus. Mauris feugiat laoreet sapien eu vulputate. Nunc at tempor ligula, et gravida diam. Curabitur id mattis libero, in placerat ante. Nulla vitae nibh sit amet ligula tincidunt ullamcorper vel malesuada nulla. Cras imperdiet blandit neque. Suspendisse auctor nisl et elementum volutpat. Maecenas at quam orci. Aenean rhoncus velit eu mi pulvinar, et eleifend libero lacinia.",
+        "tags": ["webdev", "coding", "news"]
+      },
+      {
+        "id": 2,
+        "title": "top 5 CSS tips",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et sem in quam vehicula cursus. Fusce eget purus congue, lacinia magna nec, volutpat eros. Pellentesque placerat erat efficitur ligula sagittis posuere. Curabitur et sodales arcu. Aliquam id justo et quam maximus ultricies ac eu lacus. Mauris feugiat laoreet sapien eu vulputate. Nunc at tempor ligula, et gravida diam. Curabitur id mattis libero, in placerat ante. Nulla vitae nibh sit amet ligula tincidunt ullamcorper vel malesuada nulla. Cras imperdiet blandit neque. Suspendisse auctor nisl et elementum volutpat. Maecenas at quam orci. Aenean rhoncus velit eu mi pulvinar, et eleifend libero lacinia.",
+        "tags": ["css", "webdev", "coding"]
+      }
+    ]
+  }
