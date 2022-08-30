@@ -1,0 +1,80 @@
+.card {
+    width: 100%;
+    margin: 0 0 2rem 0;
+    border: 1px solid $gray;
+
+    @include media-breakpoint-up(md) {
+        width: calc(50% - (2rem / 2));
+        margin: 0 2rem 2rem 0;
+
+        &:nth-child(2n+2) {
+            margin: 0 0 2rem 0;
+        }
+    }
+
+    @include media-breakpoint-up(lg) {
+        width: calc(33.33% - (4rem / 3));
+
+        &:nth-child(2n+2) {
+            margin: 0 2rem 2rem 0;
+        }
+
+        &:nth-child(3n+3) {
+            margin: 0 0 2rem 0;
+        }
+    }
+
+    @include media-breakpoint-up(xxl) {
+        width: calc(25% - (6rem / 4));
+
+        &:nth-child(3n+3),
+        &:nth-child(2n+2) {
+            margin: 0 2rem 2rem 0;
+        }
+
+        &:nth-child(4n+4) {
+            margin: 0 0 2rem 0;
+        }
+    }
+
+    &__link {
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        color: initial;
+        transition: .2s ease background-color;
+        padding: 1rem;
+
+        &:hover {
+            color: initial;
+            background-color: $gray-lightest;
+            transition: .2s ease background-color;
+        }
+    }
+
+    &__img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__headline {
+        width: 100%;
+        text-align: center;
+    }
+
+    &__types {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+
+        li {
+            list-style-type: none;
+            display: inline;
+            margin: 0 .5rem;
+        }
+    }
+}

@@ -6,7 +6,7 @@ const getPosts = () => {
 
     const load = async () => {
         try {
-            let data = await fetch('http://localhost:3000/posts');
+            let data = await fetch('http://localhost:3000/pokemon');
 
             if (!data.ok) {
                 throw Error('no data available');

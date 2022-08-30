@@ -5,11 +5,11 @@ import DetailsView from '../views/DetailsView.vue'
 const routes = [
   {
     path: '/',
-    name: 'home',
+    name: 'Home',
     component: HomeView
   },
   {
-    path: '/posts/:id',
+    path: '/pokemon/:id',
     name: 'Details',
     component: DetailsView,
     props: true
