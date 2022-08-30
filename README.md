@@ -1,5 +1,7 @@
 # Vue-Demo
 
+This demo was originally based off of parts #10 and #11 of [this training course](https://www.youtube.com/watch?v=YrxBCBibVo0&list=PL4cUxeGkcC9hYYGbV60Vq3IXYNfDk8At1) but I have since add more on to it. I swapped out the demo data with more complex data and made it a gallery of item instead of a simple list.
+
 ## Project setup
 ```
 npm install
